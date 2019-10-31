@@ -1,10 +1,34 @@
-\documentclass[a4j]{jreport}
-%\documentclass[a4paper]{bxjsreport}%if overleaf
-\input{begin}
+\documentclass[a4j]{jsarticle}
+
+\usepackage{subfig}
+\usepackage{algorithm, algpseudocode}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{mediabb} 
+\usepackage{bm}
+\newcommand{\argmax}{\mathop{\rm arg~max}\limits}
+\newcommand{\argmin}{\mathop{\rm arg~min}\limits}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Table}
+
+%if using overleaf in Japanease 
+%-----------
+%\usepackage{fontspec}
+%\usepackage{zxjatype}
+
+%\setjamainfont{ipam.ttf}
+%\setjasansfont{ipag.ttf}
+%\setjamonofont{ipag.ttf}
+%------------
+\title{TITLE}
+\author{AUTHOR}
+\date{\today}
+\begin{document}
 \renewcommand{\include}[1]{}
 \renewcommand{\documentclass}{}
 
 %----------------------------------------------------------------------------------------------------------------------
-\input{sec1}
+\input{infoGAIL}
 %----------------------------------------------------------------------------------------------------------------------
 \input{end}
